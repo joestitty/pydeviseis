@@ -1,0 +1,23 @@
+# Core Scientific Computing
+numpy
+scipy
+matplotlib
+seaborn
+
+# Geophysical Modeling & I/O
+# Note: Devito is a complex package. Installation may require specific
+# C/C++ compilers (e.g., GCC, Clang) and an MPI implementation.
+# Please follow the official Devito installation guide for your system.
+devito-core
+
+# For reading seismic model/data files in SEG-Y format
+segyio
+
+# GPU Computing (Optional)
+# Required for GPU-accelerated operators.
+# Install the version that matches your NVIDIA CUDA toolkit.
+# e.g., cupy-cuda11x for CUDA 11.x, cupy-cuda12x for CUDA 12.x
+# cupy-cuda12x
+
+# Jupyter Environment (for running notebooks)
+jupyterlab
